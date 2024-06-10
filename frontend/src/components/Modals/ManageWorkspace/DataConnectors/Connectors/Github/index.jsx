@@ -78,7 +78,7 @@ export default function GithubOptions() {
                   type="url"
                   name="repo"
                   className="bg-zinc-900 text-white placeholder:text-white/20 text-sm rounded-lg focus:border-white block w-full p-2.5"
-                  placeholder="https://github.com/Mintplex-Labs/anything-llm"
+                  placeholder="https://github.com/bentwnghk/anythingllm"
                   required={true}
                   autoComplete="off"
                   onChange={(e) => setRepo(e.target.value)}
