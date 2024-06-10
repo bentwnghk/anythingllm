@@ -27,7 +27,7 @@ function apiDocumentEndpoints(app) {
     async (request, response) => {
       /*
     #swagger.tags = ['Documents']
-    #swagger.description = 'Upload a new file to AnythingLLM to be parsed and prepared for embedding.'
+    #swagger.description = 'Upload a new file to Mr.🆖 DocChat to be parsed and prepared for embedding.'
     #swagger.requestBody = {
       description: 'File to be uploaded.',
       required: true,
@@ -127,7 +127,7 @@ function apiDocumentEndpoints(app) {
     async (request, response) => {
       /*
     #swagger.tags = ['Documents']
-    #swagger.description = 'Upload a valid URL for AnythingLLM to scrape and prepare for embedding.'
+    #swagger.description = 'Upload a valid URL for Mr.🆖 DocChat to scrape and prepare for embedding.'
     #swagger.requestBody = {
       description: 'Link of web address to be scraped.',
       required: true,

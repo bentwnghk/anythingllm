@@ -233,7 +233,7 @@ export default function GeneralEmbeddingPreference() {
                   <br />
                   Embedding is the process of turning text into vectors. These
                   credentials are required to turn your files and prompts into a
-                  format which AnythingLLM can use to process.
+                  format which Mr.🆖 DocChat can use to process.
                 </p>
               </div>
               <div className="w-full justify-end flex">

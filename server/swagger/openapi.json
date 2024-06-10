@@ -2,8 +2,8 @@
   "openapi": "3.0.0",
   "info": {
     "version": "1.0.0",
-    "title": "AnythingLLM Developer API",
-    "description": "API endpoints that enable programmatic reading, writing, and updating of your AnythingLLM instance. UI supplied by Swagger.io."
+    "title": "Mr.🆖 DocChat Developer API",
+    "description": "API endpoints that enable programmatic reading, writing, and updating of your Mr.🆖 DocChat instance. UI supplied by Swagger.io."
   },
   "servers": [
     {
@@ -742,7 +742,7 @@
         "tags": [
           "Documents"
         ],
-        "description": "Upload a new file to AnythingLLM to be parsed and prepared for embedding.",
+        "description": "Upload a new file to Mr.🆖 DocChat to be parsed and prepared for embedding.",
         "parameters": [],
         "responses": {
           "200": {
@@ -818,7 +818,7 @@
         "tags": [
           "Documents"
         ],
-        "description": "Upload a valid URL for AnythingLLM to scrape and prepare for embedding.",
+        "description": "Upload a valid URL for Mr.🆖 DocChat to scrape and prepare for embedding.",
         "parameters": [],
         "responses": {
           "200": {
@@ -841,7 +841,7 @@
                         "chunkSource": "https:useanything.com.html",
                         "published": "1/16/2024, 3:46:33 PM",
                         "wordCount": 252,
-                        "pageContent": "AnythingLLM is the best....",
+                        "pageContent": "Mr.🆖 DocChat is the best....",
                         "token_count_estimate": 447,
                         "location": "custom-documents/url-useanything_com-c530dbe6-bff1-4b9e-b87f-710d539d20bc.json"
                       }
@@ -915,7 +915,7 @@
                         "chunkSource": "no chunk source specified",
                         "published": "1/16/2024, 3:46:33 PM",
                         "wordCount": 252,
-                        "pageContent": "AnythingLLM is the best....",
+                        "pageContent": "Mr.🆖 DocChat is the best....",
                         "token_count_estimate": 447,
                         "location": "custom-documents/raw-my-doc-text-c530dbe6-bff1-4b9e-b87f-710d539d20bc.json"
                       }
@@ -956,7 +956,7 @@
               "schema": {
                 "type": "object",
                 "example": {
-                  "textContent": "This is the raw text that will be saved as a document in AnythingLLM.",
+                  "textContent": "This is the raw text that will be saved as a document in Mr.🆖 DocChat.",
                   "metadata": {
                     "keyOne": "valueOne",
                     "keyTwo": "valueTwo",
@@ -1138,7 +1138,7 @@
         "tags": [
           "Documents"
         ],
-        "description": "Get a single document by its unique AnythingLLM document name",
+        "description": "Get a single document by its unique Mr.🆖 DocChat document name",
         "parameters": [
           {
             "name": "docName",

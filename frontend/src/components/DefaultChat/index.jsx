@@ -98,12 +98,12 @@ export default function DefaultChatContainer() {
               <span
                 className={`whitespace-pre-line text-white font-normal text-sm md:text-sm flex flex-col gap-y-1 mt-2`}
               >
-                AnythingLLM can run totally locally on your machine with little
+                Mr.🆖 DocChat can run totally locally on your machine with little
                 overhead you wont even notice it's there! No GPU needed. Cloud
                 and on-premises installation is available as well.
                 <br />
                 The AI tooling ecosystem gets more powerful everyday.
-                AnythingLLM makes it easy to use.
+                Mr.🆖 DocChat makes it easy to use.
               </span>
               <a
                 href={paths.github()}
