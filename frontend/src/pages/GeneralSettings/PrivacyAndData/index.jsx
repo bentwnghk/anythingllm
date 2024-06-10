@@ -193,11 +193,11 @@ function TelemetryLogs({ settings }) {
             telemetry all we ask is to consider sending us feedback and thoughts
             so that we can continue to improve Mr.🆖 DocChat for you.{" "}
             <a
-              href="mailto:team@mintplexlabs.com"
+              href="mailto:mr.ng@mystudies.net"
               className="underline text-blue-400"
               target="_blank"
             >
-              team@mintplexlabs.com
+              mr.ng@mystudies.net
             </a>
             .
           </p>

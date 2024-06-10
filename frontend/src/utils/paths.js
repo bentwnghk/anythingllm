@@ -37,16 +37,16 @@ export default {
     return "https://github.com/bentwnghk/anythingllm";
   },
   discord: () => {
-    return "https://discord.com/invite/6UyHPeGZAC";
+    return "https://mr5drive.com";
   },
   docs: () => {
-    return "https://docs.useanything.com";
+    return "https://mr5drive.com";
   },
   mailToMintplex: () => {
-    return "mailto:team@mintplexlabs.com";
+    return "mailto:mr.ng@mystudies.net";
   },
   hosting: () => {
-    return "https://my.mintplexlabs.com/aio-checkout?product=anythingllm";
+    return "https://api.mister5.net";
   },
   workspace: {
     chat: (slug) => {

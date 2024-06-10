@@ -102,7 +102,7 @@ export default function Survey({ setHeader, setForwardBtn, setBackBtn }) {
               href={paths.mailToMintplex()}
               className="text-sky-400 underline text-xs"
             >
-              team@mintplexlabs.com
+              mr.ng@mystudies.net
             </a>
           </div>
         </div>
@@ -218,7 +218,7 @@ export default function Survey({ setHeader, setForwardBtn, setBackBtn }) {
             name="comment"
             rows={5}
             className="mt-2 bg-zinc-900 text-white placeholder:text-white/20 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-            placeholder="If you have any questions or comments right now, you can leave them here and we will get back to you. You can also email team@mintplexlabs.com"
+            placeholder="If you have any questions or comments right now, you can leave them here and we will get back to you. You can also email mr.ng@mystudies.net"
             wrap="soft"
             autoComplete="off"
           />
