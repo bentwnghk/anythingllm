@@ -54,7 +54,7 @@ https://github.com/bentwnghk/anythingllm/tree/master/embed/README.md
   data-base-api-url="${serverHost}/api/embed"
   src="${scriptHost}/embed/anythingllm-chat-widget.min.js">
 </script>
-<!-- AnythingLLM (https://useanything.com) -->
+<!-- Mr.🆖 DocChat (https://useanything.com) -->
 `;
 }
 

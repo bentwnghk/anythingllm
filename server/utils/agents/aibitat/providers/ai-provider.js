@@ -79,7 +79,7 @@ class Provider {
             baseURL: "https://openrouter.ai/api/v1",
             defaultHeaders: {
               "HTTP-Referer": "https://useanything.com",
-              "X-Title": "AnythingLLM",
+              "X-Title": "Mr.🆖 DocChat",
             },
           },
           apiKey: process.env.OPENROUTER_API_KEY ?? null,

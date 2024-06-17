@@ -5,7 +5,7 @@ import System from "@/models/system";
 import showToast from "@/utils/toast";
 import PreLoader from "@/components/Preloader";
 import OpenAiLogo from "@/media/llmprovider/openai.png";
-import AnythingLLMIcon from "@/media/logo/anything-llm-icon.png";
+import Mr.🆖 DocChatIcon from "@/media/logo/anything-llm-icon.png";
 import OpenAiWhisperOptions from "@/components/TranscriptionSelection/OpenAiOptions";
 import NativeTranscriptionOptions from "@/components/TranscriptionSelection/NativeTranscriptionOptions";
 import LLMItem from "@/components/LLMSelection/LLMItem";
@@ -21,7 +21,7 @@ const PROVIDERS = [
     description: "Leverage the OpenAI Whisper-large model using your API key.",
   },
   {
-    name: "AnythingLLM Built-In",
+    name: "Mr.🆖 DocChat Built-In",
     value: "local",
     logo: AnythingLLMIcon,
     options: (settings) => <NativeTranscriptionOptions settings={settings} />,

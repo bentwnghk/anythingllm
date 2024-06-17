@@ -1,6 +1,6 @@
 {
   "AWSTemplateFormatVersion": "2010-09-09",
-  "Description": "Create a stack that runs AnythingLLM on a single instance",
+  "Description": "Create a stack that runs Mr.🆖 DocChat on a single instance",
   "Parameters": {
     "InstanceType": {
       "Description": "EC2 instance type",
@@ -141,7 +141,7 @@
       }
     },
     "ServerURL": {
-      "Description": "URL of the AnythingLLM server",
+      "Description": "URL of the Mr.🆖 DocChat server",
       "Value": {
         "Fn::Join": [
           "",

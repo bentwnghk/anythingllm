@@ -51,9 +51,9 @@ export default function DefaultChatContainer() {
             <span
               className={`whitespace-pre-line text-white font-normal text-sm md:text-sm flex flex-col gap-y-1 mt-2`}
             >
-              Welcome to AnythingLLM, AnythingLLM is an open-source AI tool by
+              Welcome to Mr.🆖 DocChat, Mr.🆖 DocChat is an open-source AI tool by
               Mintplex Labs that turns anything into a trained chatbot you can
-              query and chat with. AnythingLLM is a BYOK (bring-your-own-keys)
+              query and chat with. Mr.🆖 DocChat is a BYOK (bring-your-own-keys)
               software so there is no subscription, fee, or charges for this
               software outside of the services you want to use with it.
             </span>
@@ -75,7 +75,7 @@ export default function DefaultChatContainer() {
             <span
               className={`whitespace-pre-line text-white font-normal text-sm md:text-sm flex flex-col gap-y-1 mt-2`}
             >
-              AnythingLLM is the easiest way to put powerful AI products like
+              Mr.🆖 DocChat is the easiest way to put powerful AI products like
               OpenAi, GPT-4, LangChain, PineconeDB, ChromaDB, and other services
               together in a neat package with no fuss to increase your
               productivity by 100x.
@@ -216,10 +216,10 @@ export default function DefaultChatContainer() {
             <span
               className={`whitespace-pre-line text-white font-normal text-sm md:text-sm flex flex-col gap-y-1 mt-2`}
             >
-              AnythingLLM is more than a smarter Dropbox.
+              Mr.🆖 DocChat is more than a smarter Dropbox.
               <br />
               <br />
-              AnythingLLM offers two ways of talking with your data:
+              Mr.🆖 DocChat offers two ways of talking with your data:
               <br />
               <br />
               <i>Query:</i> Your chats will return data or inferences found with

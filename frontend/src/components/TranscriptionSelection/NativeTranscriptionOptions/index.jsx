@@ -52,7 +52,7 @@ function WhisperSmall() {
         <Gauge size={25} />
         <p className="text-sm">
           Running the <b>whisper-small</b> model on a machine with limited RAM
-          or CPU can stall AnythingLLM when processing media files.
+          or CPU can stall Mr.🆖 DocChat when processing media files.
           <br />
           We recommend at least 2GB of RAM and upload files &lt;10Mb.
           <br />
@@ -73,7 +73,7 @@ function WhisperLarge() {
         <Gauge size={25} />
         <p className="text-sm">
           Using the <b>whisper-large</b> model on machines with limited RAM or
-          CPU can stall AnythingLLM when processing media files. This model is
+          CPU can stall Mr.🆖 DocChat when processing media files. This model is
           substantially larger than the whisper-small.
           <br />
           We recommend at least 8GB of RAM and upload files &lt;10Mb.
