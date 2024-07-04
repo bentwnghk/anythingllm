@@ -12,6 +12,7 @@ import { Tooltip } from "react-tooltip";
 import Workspace from "@/models/workspace";
 import TTSMessage from "./TTSButton";
 import { EditMessageAction } from "./EditMessage";
+import { DeleteMessage } from "./DeleteMessage";
 
 const Actions = ({
   message,
@@ -50,23 +51,15 @@ const Actions = ({
             chatId={chatId}
           />
         )}
+        <DeleteMessage chatId={chatId} role={role} isEditing={isEditing} />
         {chatId && role !== "user" && !isEditing && (
-          <>
-            <FeedbackButton
-              isSelected={selectedFeedback === true}
-              handleFeedback={() => handleFeedback(true)}
-              tooltipId={`${chatId}-thumbs-up`}
-              tooltipContent="Good response"
-              IconComponent={ThumbsUp}
-            />
-            <FeedbackButton
-              isSelected={selectedFeedback === false}
-              handleFeedback={() => handleFeedback(false)}
-              tooltipId={`${chatId}-thumbs-down`}
-              tooltipContent="Bad response"
-              IconComponent={ThumbsDown}
-            />
-          </>
+          <FeedbackButton
+            isSelected={selectedFeedback === true}
+            handleFeedback={() => handleFeedback(true)}
+            tooltipId={`${chatId}-thumbs-up`}
+            tooltipContent="Good response"
+            IconComponent={ThumbsUp}
+          />
         )}
       </div>
       <TTSMessage slug={slug} chatId={chatId} message={message} />
