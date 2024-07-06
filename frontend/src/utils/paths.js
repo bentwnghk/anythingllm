@@ -46,7 +46,7 @@ export default {
     return "mailto:mr.ng@mystudies.net";
   },
   hosting: () => {
-    return "https://api.mister5.net";
+    return "https://api.mr5ai.com";
   },
   workspace: {
     chat: (slug) => {
